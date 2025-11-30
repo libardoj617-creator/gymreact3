@@ -7,7 +7,7 @@ const Usuarios = () => {
   const usuarios = [
     { id: '001', nombre: 'Evelin Luna', edad: 25, correo: 'evelin.luna@gmail.com', estado: 'Activo' },
     { id: '002', nombre: 'Jose Ortiz', edad: 45, correo: 'jose.ortiz@gmail.com', estado: 'Activo' },
-    { id: '003', nombre: 'Estefania Ardila', edad: 31, correo: 'sthfaneliana@gmail.com', estado: 'Inactivo' },
+    { id: '003', nombre: 'Estefania Ardila', edad: 31, correo: 'sthfaneliana@gmail.com', estado: 'Activo' },
     { id: '004', nombre: 'Jeiler Riascos', edad: 24, correo: 'jeiler.riascos@gmail.com', estado: 'Inactivo' },
   ];
 
