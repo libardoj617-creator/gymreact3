@@ -1,0 +1,62 @@
+/*Este codigo contiene los componentes 
+relacionados con la tabla Gestion de usuarios*/
+.usuarios-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.usuarios-main {
+  padding: 2rem;
+  flex: 1;
+  background-color: #f9f9f9; /*color fondo de la tabla*/
+}
+
+.usuarios-main h2 {
+  margin-bottom: 0.5rem;
+}
+
+.usuarios-main p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.usuarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.usuarios-table th,
+.usuarios-table td {
+  border: 1px solid #ccc; /*color lineas*/
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.usuarios-table th {
+  background-color: orange; /*color titulo tabla*/
+}
+
+.agregar-btn {
+  background-color: orange;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.agregar-btn:hover {
+  background-color: darkorange;
+}
+
+.usuarios-footer {
+  text-align: right;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+

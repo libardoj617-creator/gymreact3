@@ -1,0 +1,16 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #555050;   /* Fondo oscuro */
+  color: #fff;              /* Texto blanco */
+  text-align: center;       /* Centrado */
+  padding: 5px 0;          /* Espaciado vertical */
+  width: 100%;              /* Ocupa todo el ancho */
+  bottom: 0;
+
+  font-size: 14px;          /* Tamaño de texto */
+ /*margin-bottom: 0%; */       /* Empuja el footer al fondo */
+  
+}
+
+
+

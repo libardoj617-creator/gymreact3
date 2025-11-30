@@ -1,0 +1,45 @@
+.tabla-container {
+  background: #fff;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tabla-titulo {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff8c00; /* Naranja claro */
+}
+
+.tabla-membresias {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-membresias th {
+  background-color: #ffe0b2; /* Fondo naranja claro */
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+  color: #ff8c00; /* Letras naranja claro */
+}
+
+.tabla-membresias td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.activo {
+  color: green;
+  font-weight: bold;
+}
+
+.inactivo {
+  color: red;
+  font-weight: bold;
+}
+
+
+

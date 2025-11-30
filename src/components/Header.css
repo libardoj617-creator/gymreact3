@@ -1,0 +1,168 @@
+/* -----------------------------------------
+   CABECERA ESTILO GYM (Happy System)
+------------------------------------------ */
+
+/* Fondo general naranja */
+.header-container {
+  background: #ff8c00;
+  padding: 10px 20px;
+  width: 100%;
+
+  text-align: center;
+  
+}
+
+/* Contenedor superior: logo + textos */
+.header-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  
+}
+
+/* Logo */
+.header-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 12px;
+  background: #fff;
+  padding: 1px;
+  
+}
+
+/* Título principal */
+.header-title {
+  padding: 1px;
+  font-size: 32px;
+  font-weight: 700; /*grosor de letra*/
+  color: #222;
+   margin: 1px auto;
+   font-family: 'Poppins', sans-serif;
+}
+
+/* Subtítulo "by Happy System" */
+.subtitle {
+  padding: 1px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  opacity: 0.9;
+  margin: 1px auto;
+}
+
+/* Caja blanca con botones */
+.header-box {
+  background: #fff;
+  border-radius: 18px;
+  padding: 10px;
+  margin: 3px auto;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Navegación */
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Cada item */
+.header-nav li {
+  display: flex;
+  justify-content: center;
+}
+
+/* Botones */
+.header-nav a {
+  background: #ff8c00;
+  color: #fff;
+  padding: 7px 20px;
+  width: 200px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  transition: 0.2s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  /* separación a los lados cada botón
+   y respecto al borde */
+  margin: 0 15px;   
+
+
+}
+
+/* Hover */
+.header-nav a:hover {
+  background: #c96c00;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 14px rgba(0,0,0,0.18);
+}
+
+/* Responsive */
+@media (max-width: 520px) {
+  .header-title {
+    font-size: 26px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .header-nav a {
+    width: 160px;
+    font-size: 15px;
+  }
+}
+/* ------------------------------
+   RESPONSIVO resumido
+   ------------------------------ */
+
+   @media (max-width: 1024px) {
+    /*tamaño de GYM gimnasio al reducir ventana*/
+  .header-title { font-size: 2rem; }
+  .subtitle { font-size: 0.95rem; }
+}
+@media (max-width: 520px) {
+  .header-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /*separacion entre botones*/
+  }
+  .header-nav a {
+    width: 100%; /* ocupa todo el ancho */
+    text-align: center;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  /*tamaño caja de botones*/
+  .header-box { 
+    max-width: 300px; }
+  /*tamaño letra GYM gimnasio*/
+  .header-title { font-size: 22px; }
+  /* largo de los botones */
+  .header-button {
+    width: 100%;       /* ocupa todo el ancho disponible */
+    max-width: 280px;  /* límite para que no se estiren demasiado */
+    font-size: 16px;   /* opcional: ajustar tamaño de letra */
+    margin: 5px auto;  /* centrado y separación compacta */
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .header-box { max-width: 260px; padding: 16px; }
+  .header-logo { width: 90px; }
+  .header-title { font-size: 18px; }
+}
+

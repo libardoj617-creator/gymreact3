@@ -1,0 +1,160 @@
+/* src/pantallas/Inicio.css */
+/* Estilos de la pantalla de inicio del proyecto GYMREACT3 */
+
+/* Contenedor general */
+.inicio-container {
+  width: 100%;              /* ocupa todo el ancho */
+  max-width: 1200px;        /* límite en pantallas grandes */
+  margin: 0 auto;           /* centra horizontalmente */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;   /* apila cabecera y texto */
+  align-items: center;      /* centra elementos */
+  margin-top: 1px/* controla la separación desde arriba */
+
+
+}
+
+
+
+
+
+/* Tarjeta central */
+.inicio-card {
+  width: 100%;
+  max-width: 900px;    /* nunca más ancho que esto */
+  margin: 0 auto;      /* centrado */
+  padding: 28px 22px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+
+/* Título Bienvenidos al sistema */
+.inicio-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff8c00;
+  margin-bottom: 12px;
+  margin-top: 2px;
+}
+
+/* Texto Administra clientes*/
+.inicio-text {
+  color: #444;
+  font-size: 17px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Botón Ver Membresias*/
+.inicio-btn {
+  background: #ff8c00;
+  color: #fff;
+  border: none;
+  padding: 12px 26px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.1);
+  max-width: 200px;
+
+}
+
+.inicio-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+/* ---------------- RESPONSIVO ---------------- */
+
+/* Tablets (pantallas medianas) */
+@media (max-width: 768px) {
+  .inicio-card {
+    padding: 22px 18px;
+  }
+
+  .inicio-title {
+    font-size: 24px;
+  }
+
+  .inicio-text {
+    font-size: 16px;
+  }
+
+  .inicio-btn {
+    width: 100%; /* Botón ocupa todo el ancho */
+    font-size: 16px;
+    padding: 12px;
+  }
+  /* Footer con franja gris oscuro */
+.inicio-footer {
+  width: 100%;
+  background-color: #333; /* gris oscuro */
+  color: #f0f0f0;
+  padding: 5px 0;
+  /*margen franja oscura*/
+  margin-top: 90px; 
+  text-align: center;
+  font-size: 12px;
+  height: auto;
+
+}
+
+.inicio-footer span {
+  display: block;
+  margin-top: 1px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+
+}
+
+/* Móviles (pantallas pequeñas) */
+@media (max-width: 480px) {
+  .inicio-container {
+    padding: 16px;
+    align-items: center; /* Centra verticalmente en móviles */
+  }
+  @media (max-width: 768px) {
+  .inicio-card { width: 90%; }
+  .inicio-title { font-size: 1.5rem; }
+}
+@media (max-width: 1024px) {
+  .inicio-card { width: 80%; }
+}
+
+
+
+  .inicio-card {
+    width: 100%;
+    padding: 18px 14px;
+    border-radius: 10px;
+  }
+  .inicio-title { font-size: 1.25rem; } /* ~20px */
+.inicio-text { font-size: 0.95rem; }  /* ~15px */
+.inicio-btn { font-size: 0.95rem; padding: 0.6rem; }
+
+
+
+  .inicio-title {
+    font-size: 20px;
+  }
+
+  .inicio-text {
+    font-size: 15px;
+  }
+
+  .inicio-btn {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
+
